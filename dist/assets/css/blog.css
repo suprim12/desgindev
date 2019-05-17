@@ -1,0 +1,166 @@
+/**
+ *
+ * section-banner
+ *
+ */
+#blog_banner {
+  padding: 80px 0;
+  color: #a1b1c1;
+  background: white url("../img/3.jpeg") center center no-repeat fixed;
+  background-size: cover;
+}
+#blog_banner h2 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/**
+ *
+ * section main
+ *
+ */
+#main {
+  padding: 50px 0;
+  background: #a1b1c1;
+}
+
+/**
+ *
+ * blog_card_wrapp
+ *
+ */
+.blog_card_wrapp {
+  background: snow;
+  padding: 20px 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.blog_card_header h5 a {
+  color: lightsalmon;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 4px;
+}
+.blog_card_hr {
+  margin: 0;
+  padding: 0;
+}
+.blog_card_info_cs {
+  justify-content: space-between;
+}
+.blog_card_info_cs span {
+  padding: 5px 0;
+  font-size: 0.8em;
+  color: #8d9aa8;
+}
+
+/**
+ *
+ * cards
+ *
+ */
+.custom_1 a.btn {
+  color: white;
+  font-size: 0.9em;
+}
+
+/**
+ *
+ * search
+ *
+ */
+
+.custom_blog_search {
+  display: flex;
+  justify-content: center;
+}
+.custom_prepend_blog button {
+  background: transparent;
+  color: #a1b1c1;
+  border-right: 1px solid transparent;
+}
+.custom_prepend_blog input[type="search"]:hover,
+.custom_prepend_blog input[type="search"]:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #ced4da;
+}
+.custom_prepend_blog .input-group-prepend {
+  border-right: none;
+}
+
+.custom_prepend_blog input[type="search"] {
+  color: #a1b1c1;
+  background: transparent;
+  border-left: none;
+  outline: none;
+}
+
+/**
+ *
+ * recent posts
+ *
+ */
+
+.custom_recent_posts {
+  font-size: 0.9em;
+}
+.custom_recent_posts h5 {
+  font-size: 0.8em;
+}
+a.btn-custom {
+  text-align: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: #a1b1c1;
+}
+a.btn-custom:hover {
+  color: #8d9aa8;
+}
+/* categeories*/
+.card_categories ul li a {
+  color: #8d9aa8;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+.card_categories ul li a i {
+  color: #333;
+}
+
+/**
+ *
+ * Comments
+ *
+ */
+.comment_display {
+  padding: 0 12px;
+}
+.comment_display a {
+  color: #8d9aa8;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+.comment_display a:hover {
+  color: #7c858f;
+  transition:  all 0.5 ease-in-out;
+}
+.comment_display p.media-title{
+  font-size: 0.9em;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.comment_display p{
+  font-size: 0.8em;
+  font-weight: 400;
+}
+.comment_display span{
+  color: #7c858f;
+  font-size: 0.9em;
+}
+.comment_1{
+  margin-bottom: 1rem;
+}
