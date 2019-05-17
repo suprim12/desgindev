@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <!-- Bootstrap links -->
+    <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Font Awesome 5 Css -->
+    <link rel="stylesheet" href="assets/font-aweome.5/web-fonts-with-css/css/fontawesome-all.min.css">
+    <!-- owl-carousel-css -->
+    <link rel="stylesheet" href="assets/owl/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owl/assets/owl.theme.default.min.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/blog.css">
+</head>
+
+<body>
+
+    <!--=============================================
+     =            Header            =
+    =============================================-->
+    <!-- Top Navbar -->
+    <header class="header">
+
+        <nav class="navbar navbar-expand-lg p-1" style="background: #333;">
+            <!-- container-fluid-->
+            <div class="container-fluid">
+                <!-- navbar brand-->
+                <a class="navbar-brand mr-auto" href="index.html">
+                    Design2Dev
+                    <sup>
+                        <i class="fab fa-envira"></i>
+                    </sup>
+                </a>
+                <!-- collaspse button-->
+                <button class="navbar-toggler btn btn-dark" type="button" data-toggle="collapse" data-target="#customNavabar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+                <!-- collaspse div-->
+                <div class="collapse navbar-collapse" id="customNavabar">
+                    <ul class="navbar-nav navbar-custom mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ">
+                        <form action="" class="form-inline">
+                            <div class="input-group custom_prepend">
+                                <div class="input-group-prepend ">
+                                    <button type="submit" class="input-group-text" id="basic-addon1">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                                <input type="search" class="form-control form-control-sm" placeholder="Search.." aria-label="search" aria-describedby="basic-addon1">
+                            </div>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header -->
+    <!--=============================================
+    =            section-banner            =
+    =============================================-->
+    <section id="blog_banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 offset-sm-3">
+                    <h2 class="text-center">Blog</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=============================================
+    =            section-Main            =
+    =============================================-->
+    <section id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="blog_card_wrapp">
+                        <div class="blog_card_header">
+                            <h5>
+                                <a class="" href="">How to spend Money</a>
+                            </h5>
+                            <hr class="blog_card_hr">
+                            <div class="d-flex blog_card_info_cs">
+                                <span>
+                                    <i class="fas fa-user"></i> Suprim Golay</span>
+                                <span>
+                                    <i class="far fa-clock"></i> August 4,2018</span>
+                                <span class="tags">
+                                    <i class="fas fa-tags"></i> Tags:
+                                    <a href="">PHP</a>,
+                                    <a href="">SQl</a> ,
+                                    <a href="">SQl</a> ,
+                                    <a href="">SQl</a>,
+                                    <a href="">SQl</a>
+                                </span>
+                            </div>
+                            <!-- blog-card-info-cs -->
+                            <div class="blog_card_img_cs mt-2">
+                                <a class="" href="">
+                                    <img width="100%" height="500px" src="assets/img/1.jpeg">
+                                </a>
+                            </div>
+                            <div class="blog_card_description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptas iste veritatis dolorem!
+                                    Culpa recusandae, expedita quidem accusantium inventore temporibus?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique exercitationem libero
+                                    obcaecati nam! Eius enim voluptas corporis nobis aliquam consequuntur?</p>
+                                <h3>Sub title</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum tenetur enim libero ratione
+                                    vel quasi iste, dicta est harum quisquam dolore, beatae animi labore quaerat esse. Deleniti
+                                    sapiente iusto quos?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog_card_wrapp -->
+                    <div class="blog_card_wrapp mt-4" id="comments">
+                        <div class="comment_wrapp">
+                            <h5>Leave A Reply!</h5>
+                        </div>
+                        <div class="comment_content">
+                            <div class="media">
+                                <img width="50px" height="50px" class="rounded-circle mr-3 align-self-center" src="assets/img/1.jpeg">
+                                <div class="media-body">
+                                    <form action="" method="POST">
+                                        <div class="form-group">
+                                            <label for=""></label>
+                                            <textarea class="form-control" placeholder="Write Comment here" name="" id="" rows="1"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-sm btn-outline-info float-right">Comment</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- comment_content -->
+                        <div class="comment_display mt-3">
+                            <div class="media comment_1">
+                                <img width="50px" height="50px" src="assets/img/3.jpeg" alt="" class="rounded-circle  mr-4">
+                                <div class="media-body">
+                                    <div class="comments_info d-flex" style="justify-content:space-between;">
+                                        <p class="media-title p-0 m-0">Suprim Golay</p>
+                                        <span class="">Just Now</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos odit recusandae enim incidunt
+                                        totam? Ex eveniet amet nam quisquam illum.</p>
+                                    <a class="text-center d-block" href="#">View all 3 repiles
+                                        <i class="fas fa-angle-down align-self-center"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- comment_1 -->
+                            <div class="media comment_2">
+                                <img width="50px" height="50px" src="assets/img/4.jpg" alt="" class="rounded-circle  mr-4">
+                                <div class="media-body">
+                                    <div class="comments_info d-flex" style="justify-content:space-between;">
+                                        <p class="media-title p-0 m-0">DR.strange</p>
+                                        <span class="">1 minute ago</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos odit recusandae enim incidunt
+                                        totam? Ex eveniet amet nam quisquam illum.</p>
+                                    <!--== comment-repiles ==== -->
+                                    <div class="media comment_1">
+                                        <img width="50px" height="50px" src="assets/img/3.jpeg" alt="" class="rounded-circle align-self-center mr-4">
+                                        <div class="media-body">
+                                            <div class="comments_info d-flex" style="justify-content:space-between;">
+                                                <p class="media-title p-0 m-0">Suprim Golay</p>
+                                                <span class="">Just Now</span>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos odit recusandae
+                                                enim incidunt totam? Ex eveniet amet nam quisquam illum.</p>
+                                            <a class="text-center d-block" href="#">View all 3 repiles
+                                                <i class="fas fa-angle-down align-self-center"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- comment_1_repiles -->
+                                </div>
+                            </div>
+                            <!-- comment_2 -->
+
+                        </div>
+                    </div>
+                </div>
+                <!--================= col-sm-8 ======================-->
+                <div class="col-sm-4">
+                    <!-- first item -->
+                    <div class="card custom_1">
+                        <div class="card-header">
+                            Join our mailing List
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Keep up to date with our latest news and
+                                <strong>Click now to get discount.</strong>
+                            </p>
+                            <a data-toggle="modal" data-target="#subscribeModal" class="btn btn-block btn-lg btn-success">Click here to subscribe</a>
+                        </div>
+                    </div>
+                    <!-- custom_1 second-item -->
+                    <div class="card mt-4 custom_blog_search">
+                        <div class="card-body p-2">
+                            <form action="" class="form-inline d-block" style="margin:0 auto;">
+                                <div class="input-group custom_prepend_blog">
+                                    <div class="input-group-prepend ">
+                                        <button type="submit" class="input-group-text" id="basic-addon1">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                    <input type="search" class="form-control form-control-sm" placeholder="Search.." aria-label="search" aria-describedby="basic-addon1">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- custom_blog_search -->
+                    <!-- About third-item -->
+                    <div class="card mt-4">
+                        <div class="card-header">
+                            About Me
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                I am self taught developer and designer I am currently in my csit course. Passion to web technologies has keept me in this
+                                course.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Recent post -->
+                    <div class="card mt-4 custom_recent_posts">
+                        <div class="card-header">
+                            Recent Posts
+                        </div>
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="align-self-center mr-3 rounded-circle" width="30px" height="30px" src="assets/img/1.jpeg">
+                                <div class="media-body">
+                                    <h5 class="mt-0 p-0 m-0">Suprim Golay</h5>
+                                    <p class="p-0 m-0">Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                            <!-- media -->
+                            <hr>
+                            <div class="media">
+                                <img class="align-self-center mr-3 rounded-circle" width="30px" height="30px" src="assets/img/3.jpeg">
+                                <div class="media-body">
+                                    <h5 class="mt-0 p-0 m-0">Kylie Golay</h5>
+                                    <p class="p-0 m-0">Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                            <!-- media -->
+                        </div>
+                        <!-- card-body -->
+                        <a class="btn-block btn-custom" href="">View More
+                            <i class="fas fa-angle-double-down"></i>
+                        </a>
+                    </div>
+                    <!-- categories -->
+                    <div class="card mt-4 card_categories">
+                        <div class="card-header">
+                            Categories
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <a href="">
+                                    <i class="fas fa-rocket"></i> Latest Trending</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="">
+                                    <i class="fas fa-tv"></i> Top of Month</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="">
+                                    <i class="fas fa-code"></i> Code info</a>
+                            </li>
+                        </ul>
+                        <!-- card-body -->
+                        <a class="btn-block btn-custom" href="">View More
+                            <i class="fas fa-angle-double-down"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--=========== col-sm-4 ==============-->
+            </div>
+            <!-- row -->
+        </div>
+        <!-- main container -->
+    </section>
+    <!--=============================================
+     =            Modals            =
+    =============================================-->
+    <div class="modal fade" id="subscribeModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        <i class="fas fa-envelope"></i> Subscribe to our mailing list</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;
+                            <span class="sr-only">Close</span>
+                        </span>
+                    </button>
+                </div>
+                <!-- modal-header -->
+                <div class="modal-body">
+                    <p>Simply enter your name and email ! As a thank you for joining we will give you one of the best selling
+                        theme.
+                        <em>for free!</em>
+                    </p>
+                    <form action="" method="POST">
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label class="sr-only" for="firstname">Your First name</label>
+                                <input type="text" name="firstname" class="form-control" placeholder="Firstname">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label class="sr-only" for="email">Email Address</label>
+                                <input type="email" name="email" class="form-control" placeholder="example@host.com">
+                            </div>
+                            <input type="submit" class="btn btn-danger" style="height: 35px;" value="Subscribe">
+                        </div>
+                    </form>
+                    <hr>
+                    <p>
+                        <small>By subscribing you will occansional email,Newsletters.</small>Your Email will not be spam.we will
+                        respect your privacy.</p>
+                </div>
+                <!-- modal-body  -->
+            </div>
+            <!-- moda-content -->
+        </div>
+    </div>
+
+
+
+    <!--=============================================
+     =            footer        =
+    =============================================-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-6 col-xs-6">
+                    <p class="p-0 m-0 float-left"> Powered by Suprim Golay</p>
+                </div>
+                <div class="col-sm-6 col-6 col-xs-6">
+                    <p class="float-right p-0 m-0"> Copyright &copy; 2018 </p>
+                </div>
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container-fluid -->
+    </footer>
+    <!-- Bootstrap Scipts -->
+    <script src="assets/js/jquery-3.3.1.js"></script>
+    <script src="assets/bootstrap/popper.min.js"></script>
+    <script src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- owl carousel -->
+    <script src="assets/owl/owl.carousel.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.tclose').click(function () {
+                $('.tclose').toggleClass('topen');
+            });
+        });
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            margin: 30,
+            stagePadding: 30,
+            smartSpeed: 450
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <!-- Bootstrap links -->
+    <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Font Awesome 5 Css -->
+    <link rel="stylesheet" href="assets/font-aweome.5/web-fonts-with-css/css/fontawesome-all.min.css">
+    <!-- owl-carousel-css -->
+    <link rel="stylesheet" href="assets/owl/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owl/assets/owl.theme.default.min.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+
+<body>
+
+    <!--=============================================
+     =            Header            =
+    =============================================-->
+    <!-- Top Navbar -->
+    <header class="header">
+
+        <nav class="navbar navbar-expand-lg p-1" style="background: #333;">
+            <!-- container-fluid-->
+            <div class="container-fluid">
+                <!-- navbar brand-->
+                <a class="navbar-brand mr-auto" href="index.html">
+                    Design2Dev
+                    <sup>
+                        <i class="fab fa-envira"></i>
+                    </sup>
+                </a>
+                <!-- collaspse button-->
+                <button class="navbar-toggler btn btn-dark" type="button" data-toggle="collapse" data-target="#customNavabar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+                <!-- collaspse div-->
+                <div class="collapse navbar-collapse" id="customNavabar">
+                    <ul class="navbar-nav navbar-custom mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ">
+                        <form action="" class="form-inline">
+                            <div class="input-group custom_prepend">
+                                <div class="input-group-prepend ">
+                                    <button type="submit" class="input-group-text" id="basic-addon1">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                                <input type="search" class="form-control form-control-sm" placeholder="Search.." aria-label="search" aria-describedby="basic-addon1">
+                            </div>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header -->
+    <!--=============================================
+    =            section-banner            =
+    =============================================-->
+    <section id="blog_banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 offset-sm-3">
+                    <h2 class="text-center">Contact</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=============================================
+     =            Conatct me form        =
+    =============================================-->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 offset-sm-1">
+                    <h2 class="section_title">Have any questions? Feel free to get in touch with me I'll do my best to get back to you ASAP.</h2>
+                    <form action="" method="POST">
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" name="name" class=" form-control" placeholder="Your name">
+                            </div>
+                            <div class="col">
+                                <input type="text" name="email" class="form-control" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="form-row mt-4">
+                            <textarea name="message " class="form-control" id="" cols="10" rows="5">Your messages</textarea>
+                        </div>
+                        <button type="submit" class="btn btn-info btn-sm mt-3">Contact me</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=============================================
+     =            Section-8        =
+    =============================================-->
+    <section id="signup">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 offset-sm-3">
+                    <h2 class="section_title">Signup now or never.
+                        <strong>Take it to next level?</strong>
+                    </h2>
+                    <p>
+                        <a data-toggle="modal" data-target="#subscribeModal" class="btn btn-lg btn-block btn-success" href="">Yes,sign me up</a>
+                    </p>
+                </div>
+                <!-- col-sm-6 -->
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </section>
+    <!--=============================================
+     =            Modals            =
+    =============================================-->
+    <div class="modal fade" id="subscribeModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        <i class="fas fa-envelope"></i> Subscribe to our mailing list</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;
+                            <span class="sr-only">Close</span>
+                        </span>
+                    </button>
+                </div>
+                <!-- modal-header -->
+                <div class="modal-body">
+                    <p>Simply enter your name and email ! As a thank you for joining we will give you one of the best selling
+                        theme.
+                        <em>for free!</em>
+                    </p>
+                    <form action="" method="POST">
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label class="sr-only" for="firstname">Your First name</label>
+                                <input type="text" name="firstname" class="form-control" placeholder="Firstname">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label class="sr-only" for="email">Email Address</label>
+                                <input type="email" name="email" class="form-control" placeholder="example@host.com">
+                            </div>
+                            <input type="submit" class="btn btn-danger" style="height: 35px;" value="Subscribe">
+                        </div>
+                    </form>
+                    <hr>
+                    <p>
+                        <small>By subscribing you will occansional email,Newsletters.</small>Your Email will not be spam.we will
+                        respect your privacy.</p>
+                </div>
+                <!-- modal-body  -->
+            </div>
+            <!-- moda-content -->
+        </div>
+    </div>
+    <!--=============================================
+     =            footer        =
+    =============================================-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-6 col-xs-6">
+                    <p class="p-0 m-0 float-left"> Powered by Suprim Golay</p>
+                </div>
+                <div class="col-sm-6 col-6 col-xs-6">
+                    <p class="float-right p-0 m-0"> Copyright &copy; 2018 </p>
+                </div>
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container-fluid -->
+    </footer>
+    <!-- Bootstrap Scipts -->
+    <script src="assets/js/jquery-3.3.1.js"></script>
+    <script src="assets/bootstrap/popper.min.js"></script>
+    <script src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- owl carousel -->
+    <script src="assets/owl/owl.carousel.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.tclose').click(function () {
+                $('.tclose').toggleClass('topen');
+            });
+        });
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            margin: 30,
+            stagePadding: 30,
+            smartSpeed: 450
+        });
+    </script>
+</body>
+
+</html>
